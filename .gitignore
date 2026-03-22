@@ -1,0 +1,4 @@
+# Ignorar pastas virtuais e caches do Python
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
