@@ -33,18 +33,23 @@ Este repositório contém a resolução de um desafio técnico focado em extrair
 
 ## 📁 Estrutura do Repositório
 
-\`\`\`text
+```text
+├── database/                 # Instância local do banco de dados
+│   
 ├── datasets/                 # Base de dados (CSV)
 │   ├── raw/                  # Dados brutos de vendas
 │   └── processed/            # Tabelas tratadas e padronizadas
 │       └── output/           # Gráficos e exportações interativas
-│             ├── treemap_prejuizo.html
-│             └── scatter_prejuizo.html
+│           ├── treemap_prejuizo.html
+│           └── scatter_prejuizo.html
 │
 ├── notebooks/                # Código fonte
-│   └── resolucao_desafio.ipynb
+│   ├── resolucao_desafio.ipynb
+│   ├── questao_2.py
+│   ├── questao_3.py
+│   ├── questao_7.py
+│   └── questao_8.py
 │
 ├── requirements.txt          # Dependências do projeto
 ├── .gitignore                # Arquivos ignorados no versionamento
 └── README.md                 # Documentação do projeto
-\`\`\`
