@@ -1,14 +1,14 @@
-# 📊 Análise de Vendas, Previsão e Sistema de Recomendação
+# Análise de Vendas, Previsão e Sistema de Recomendação
 
 Este repositório contém a resolução de um desafio técnico focado em extrair inteligência de negócio a partir de dados de vendas. O projeto aborda três pilares fundamentais da Ciência de Dados aplicada ao varejo: Previsão de Demanda (Series Temporais), Venda Cruzada (Sistemas de Recomendação) e Análise de Risco/Lucratividade (Visualização de Dados).
 
-## 🎯 Objetivos do Projeto
+## Objetivos do Projeto
 
 1. **Previsão de Vendas (Baseline):** Estabelecer um modelo de previsão diária de vendas para janeiro de 2024 (foco no produto *Motor de Popa Yamaha Evo Dash 155HP*) utilizando a métrica MAE para avaliação.
 2. **Motor de Recomendação:** Construir um sistema de Filtragem Colaborativa Baseada em Itens para sugerir produtos similares (foco no *GPS Garmin Vortex Maré Drift*), impulsionando estratégias de cross-sell.
 3. **Análise de Prejuízos:** Mapear e visualizar os gargalos de lucratividade, identificando os produtos que mais drenam a margem da empresa através de gráficos interativos.
 
-## 🛠️ Tecnologias e Bibliotecas Utilizadas
+## Tecnologias e Bibliotecas Utilizadas
 
 * **Linguagem:** Python 3
 * **Manipulação de Dados:** `pandas`, `numpy`
@@ -16,7 +16,7 @@ Este repositório contém a resolução de um desafio técnico focado em extrair
 * **Visualização de Dados:** `matplotlib`, `plotly.express`, `plotly.graph_objects`
 * **Ambiente:** Jupyter Notebook
 
-## 🧠 Destaques Técnicos e Decisões de Negócio
+## Destaques Técnicos e Decisões de Negócio
 
 ### 1. Modelo de Previsão (Moving Average)
 * Implementação de um modelo *Baseline* utilizando Média Móvel de 7 dias para capturar a sazonalidade semanal de curto prazo.
@@ -31,7 +31,7 @@ Este repositório contém a resolução de um desafio técnico focado em extrair
 * **Treemap:** Para visualização imediata da proporção do prejuízo por produto.
 * **Scatter Plot com Eixo X Invertido:** Cruzamento de % de Perda vs. Prejuízo Absoluto, facilitando a identificação da "zona de perigo" (produtos de alta receita, mas com margens destrutivas).
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```text
 ├── database/                 # Instância local do banco de dados
